@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    background-color: #FFFAF0;
+}
+
+/*header*/
+
+.center {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* max-width: 1100px; */
+    margin: 0;
+    padding: 0 4%;
+    
+}
+
+header {
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+/* pesquisa */
+
+.caixa {
+    background:#b5f5b5 ;
+    position: absolute;
+    top: 6%;
+    left: 15%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.texto {
+    border:none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #228B22;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .8s;
+}
+
+.pesquisa {
+    width: 20px;
+    height: 20px;
+    border-radius:50% ;
+    background:#b5f5b5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7;
+}
+
+.caixa:hover > .texto {
+    width: 360px;
+    padding: 0 6px;
+}
+
+::-webkit-input-placeholder {
+    color: #228B22;
+}
+
+
+.menu {
+    margin-left: 30%;
+    text-align: right;
+    margin-top: 3.5%;
+    width: 600px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    padding: 15px 20px 15px 20px;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    transform: scale(1.9);
+    
+}
+
+.menu a:hover {
+    background: #90EE90;
+    color: white;
+    box-shadow: 1px 1px #228B22,
+              2px 2px #228B22, 
+              3px 3px #228B22,
+              4px 4px #228B22,
+              5px 5px #228B22,
+              6px 6px #228B22,
+              2px 2px #228B22;
+  transform: translateX(-3px);
+}
+
+/*linha de separação*/
+
+.linha {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
